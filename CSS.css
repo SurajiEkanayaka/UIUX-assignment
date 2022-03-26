@@ -1,15 +1,5 @@
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
 
 
-.acc{
-    align-content: center !important;
-    justify-content: center;
-    color: aquamarine;
-}
+
+              
 

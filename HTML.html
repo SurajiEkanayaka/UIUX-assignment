@@ -24,56 +24,61 @@ rel="stylesheet"
 
 <Body>
     <section class="vh-100">
-        <div class="container py-5 h-100">
-          <div class="row d-flex align-items-center justify-content-center h-100">
-            <div class="col-md-8 col-lg-7 col-xl-6">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
+        <div class="container-fluid">
+          <div class="row d-flex align-items-center ">
+            <div class="col-md-8 col-lg-12 col-xl-6 align-items-center ">
+              <img style="width: 900px; height:721px;"  src="https://images.unsplash.com/photo-1465080357990-d4bc259ec4a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="img-fluid" >
             </div>
-            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-              <form>
+            <div class="col-md-7 col-lg-7 col-xl-4 offset-xl-1 align-content-center">
+              <form style="margin-top: 10px;">
                 <h5>Welcome Back</h5>
                 <h2 class="mb-5">
                     Login to your account
                 </h2>
                 <!-- Email input -->
-                <div class="form-outline mb-4" id="forminput">
-                  <input type="email" id="form1Example13" class="form-control  form-control-lg" />
-                  <label class="form-label" for="form1Example13">Email address</label>
-                </div>
-      
+                <label for="basic-url" class="form-label">Email</label>
+                <div class="input-group mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="John.snow@gmail.com"
+                    aria-label="Email"
+                  />
+                  </div>      
                 <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form1Example23" class="form-control form-control-lg" />
-                  <label class="form-label" for="form1Example23">Password</label>
-                </div>
+                <label for="basic-url" class="form-label">Password</label>
+                <div class="input-group mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="*****"
+                    aria-label="password"
+                  />
+                  </div>   
+
+                
       
-                <div class="d-flex justify-content-around align-items-center mb-4">
-                  <!-- Checkbox -->
+                <div class="d-flex justify-content-between  mb-4">
+                  <!-- Radio Button -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="radio"
                       value=""
-                      id="form1Example3"
-                      
+                      id="form1Example3"            
                     />
                     <label class="form-check-label" for="form1Example3"> Remember me </label>
                   </div>
-                  <a href="#!" class="fgt">Forgot password?</a>
-                </div>
-      
+                  <a href="#!" class="fgt" style="color: #2C5282">Forgot password?</a>
+                </div>      
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-success  btn-lg btn-block" >Sign in</button>
-      
+                <button type="submit" class="btn btn-success  btn-lg btn-block" >Sign in</button>      
                 <a class="btn btn-primary btn-lg btn-block" style="background-color: #2D3748" href="#!" role="button">
                   <i class="fab fa-google me-2"></i>Or sign-in with Google</a>
-
-
                 <div class="d-flex justify-content-center align-items-center mt-5 ml-5">
                     <h6>Don't have an account?</h6>
                 <a href="#"><h6>Join free today</h6></a>
-                </div>
-                
+                </div>                
               </form>
             </div>
           </div>
